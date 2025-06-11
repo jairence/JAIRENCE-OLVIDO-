@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class AttendanceSlip {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("\n---ATTENDANCE SLIP---");
+        System.out.print("Enter your full name: ");
+        String name = scanner.nextLine();
+        System.out.print("Address: ");
+        String address = scanner.nextLine();
+        System.out.print("Age: ");
+        String age = scanner.nextLine();
+        System.out.print("Gender: ");
+        String gender = scanner.nextLine();
+        
+        System.out.print("Enter student name: ");
+        name = scanner.nextLine();
+        System.out.print("Enter student ID: ");
+        String studentId = scanner.nextLine();
+        System.out.print("Enter attendance status (Present/Absent): ");
+        String status = scanner.nextLine();
+        
+        System.out.println("\n---Attendance Slip---");
+        System.out.println("Name    : " + name);
+        System.out.println("ID      : " + studentId);
+        System.out.println("Status  : " + status);
+        System.out.println("\n---THANK YOU VERY MUCH---");
+        
+        scanner.close();
+    }
+}
