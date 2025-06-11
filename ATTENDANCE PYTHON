@@ -1,0 +1,15 @@
+print("\n---ATTENDANCE SLIP---")
+name = input("Enter your full name: ")
+address = input("Address: ")
+age = input("Age: ")
+gender = input("Gender: ")
+
+name = input("Enter student name: ")
+student_id = input("Enter student ID: ")
+status = input("Enter attendance status (Present/Absent): ")
+
+print("\n---Attendance Slip---")
+print("Name    :", name)
+print("ID      :", student_id)
+print("Status  :", status)
+print("\n---THANK YOU VERY MUCH---")
